@@ -1,0 +1,131 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/RK22658/Rajiv22658
+    4  ls -lt
+    5  cd RTR150
+    6  cd Rajiv22658/
+    7  pwd
+    8  ls -lt
+    9  pwd -L
+   10  pwd -P
+   11  cd photos
+   12  cd Photos
+   13  cd-
+   14  cd -
+   15  cd Photos
+   16  cd Documents
+   17  cd Photos
+   18  cd ..
+   19  pwd
+   20  cd /home /user /Movies
+   21  cd /home/user/Movies
+   22  cd ~Rajiv22658
+   23  cd ~ Rajiv22658
+   24  cd ~[Rajiv22658]
+   25  cd PIctures
+   26  cd Pictures
+   27  cd -
+   28  cd Rajiv22658/
+   29  ls
+   30  ls /home /user /Documents
+   31  user@epk428-10:~/Rajiv22658$ pwd
+   32  ls /home /user /Documents/
+   33  ls /home/user/Documents/
+   34  pwd
+   35  ls -R
+   36  ls -a
+   37  ls -lh
+   38  cat > kanchana.txt
+   39  cat > dissanayaka.txt
+   40  cat kanchana.txt dissanayaka.txt > matrix.txt
+   41  cat matrix.txt
+   42  tac matrix.txt
+   43  cp kanchana.txt dissanayaka.txt
+   44  cat dissanayaka.txt
+   45  (cp cpmmand doesnt copy.just replace)
+   46  (cp cpmmand doesnt copy, it replace)
+   47  pwd
+   48  cp -R /home/user/videos /home/user/documents
+   49  cp -R /home/user/Videos /home/user/documents
+   50  cp -R /home/user/Videos /home/user/Dcuments
+   51  cat documents
+   52  cat Documents
+   53  cd /home/user/Dpcuments
+   54  cd /home/user/Documents
+   55  pwd -L
+   56  cat Documents
+   57  cat /Documents
+   58  cat /home/user/Documents
+   59  pwd
+   60  ls -R
+   61  ls -a
+   62  pwd
+   63  ls -lh
+   64  cd ..
+   65  pwd
+   66  cd /Rajiv22658
+   67  cd Rajiv22658/
+   68  cd ~
+   69  pwd
+   70  cd Documents/
+   71  cd ~Rajiv22658
+   72  cd ~Rajiv22658/
+   73  cd Rajiv22658/
+   74  cd -
+   75  cd Rajiv22658/
+   76  mv kanchana.txt rkd.txt
+   77  cat rkd.txt
+   78  cat dissanayaka.txt
+   79  mv matrix.txt /home/user/Videos
+   80  cd ..
+   81  cd Videos/
+   82  ls -lt
+   83  cat matrix.txt
+   84  cd ..
+   85  cd Rajiv22658/
+   86  mkdir youtube
+   87  mkdir youtube/ chanels
+   88  mkdir youtube/chanels
+   89  pwd
+   90  ls -lt
+   91  mkdir -v my new files
+   92  ls -lt
+   93  mkdir -m777 abekoon
+   94  ls -lt
+   95  mkdir -m000 none
+   96  ls -lt
+   97  rmdir -p youtube/chanels
+   98  ls -lt
+   99  rmdir new files my
+  100  ls -lt
+  101  mkdir -p youtube/chanels
+  102  ls -lt
+  103  mkdir -v 1 2 3 4 5
+  104  ls -lt
+  105  rm 1 2 3 4 5
+  106  rmdir 1 2 3 4 5
+  107  ls -lt
+  108  mkdir -m777 1 2 3 4
+  109  ls -lt
+  110  rm 1 2 3 4
+  111  rmdir 1 2 3 4
+  112  pwd
+  113  cd youtube/
+  114  ls -lt
+  115  cat >1.txt 2.txt 3.txt
+  116  ls -lt
+  117  rm 1.txt
+  118  ls -lt
+  119  cd -
+  120  ls -lt
+  121  cd abekoon/
+  122  las -lt
+  123  ls -lt
+  124  cd -
+  125  rm -rabekoon
+  126  rm -r abekoon
+  127  ls -lt
+  128  pwd
+  129  ls -lt
+  130  ls -a
+  131  history > history_20230920_class_05.txt
