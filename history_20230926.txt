@@ -1,0 +1,61 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  virtulabox --startvm XP
+    4  virtualbox --startvm XP
+    5  quartus
+    6  whoami
+    7  git clone https://github.com/RK22658/Rajiv22658
+    8  pwd
+    9  cd Rajiv22658
+   10  ls -lt
+   11  cat rkd.txt
+   12  cat text_1.txt
+   13  rm text_1.txt
+   14  cat dissanayaka.txt
+   15  rm rkd.txt
+   16  ls -lt
+   17  ls -a
+   18  /RTR150
+   19  nano first.c
+   20  ls -lt
+   21  gcc first.c
+   22  ls -lt
+   23  cat first.c
+   24  gcc first.c -o first.out
+   25  ls -lh
+   26  nanao first.c
+   27  nano first.c
+   28  la -lt
+   29  nano first.c
+   30  ls -lh
+   31  nano irst_withoutcomments.c
+   32  nano first_withoutcomments.c
+   33  ls -lt
+   34  gcc first_withoutcomments.c
+   35  ls -lt
+   36  gcc first.c -o first_withoutcomments.c
+   37  nano first_withoutcomments.c
+   38  gcc first.c -o first_withoutcomments.c
+   39  nano first_withoutcomments.c
+   40  gcc first.c -o first_withoutcomments.c
+   41  nano first_withoutcomments.c
+   42  gcc first_withoutcomments.c -o first_with_comments.out
+   43  ls -lt
+   44  ./first_with_comments.out 
+   45  nano first_with_comments.c
+   46  nano first_withoutcomments.c
+   47  mkdir CS_Basic
+   48  ls -lt
+   49  cd CS_Basic
+   50  ls -lt
+   51  pwd
+   52  mv dissanayaka.txt
+   53  dissanayaka.txt
+   54  mv dissanayaka.txt /home/user/Rajiv22658/CS_Basic
+   55  mv dissanayaka.txt /home/user/Rajiv22658/CS_Basic.
+   56  cd ..
+   57  ls -lta
+   58  nano .gitignore
+   59  pwd
+   60  ls -lta
+   61  history > history_20230926.txt
