@@ -1,0 +1,171 @@
+    1  git --version
+    2  whereisgit
+    3  git clone nano git-upload
+    4  nano h
+    5  virtualbox --startvm XP
+    6  quartus
+    7  virtualbox --qt
+    8  virtualbox--startvm XP
+    9  Virtualbox -startvm XP
+   10  whoami
+   11  pwd
+   12  man ls
+   13  ls -l
+   14  ls -l -t
+   15  ls -lt
+   16  ls -la
+   17  ls Desktop/
+   18  ls -la documents/
+   19  ls -la Documents/
+   20  ls /home
+   21  pwd
+   22  ls
+   23  tree
+   24  cd Music/
+   25  ls -la
+   26  cd .
+   27  cd ..
+   28  pwd
+   29  cd ..
+   30  cd sc/
+   31  cd ..
+   32  ls
+   33  s -la
+   34  ls -la
+   35  pwd
+   36  cd .
+   37  cd ..
+   38  pwd
+   39  ls
+   40  cd root/
+   41  cd home/
+   42  cd ..
+   43  cd ./home/
+   44  ls
+   45  pwd
+   46  cd /
+   47  pwd
+   48  cd /home /user
+   49  cd /
+   50  cd ~
+   51  cd ~/Documents
+   52  cd ..
+   53  cd ~
+   54  pwd
+   55  cd /home /rajiv
+   56  cd
+   57  ls
+   58  ls -lt
+   59  mkdir ABC
+   60  ls -lt
+   61  ls -lt ABC
+   62  ls -lt ABC/
+   63  ls -lta ABC/
+   64  ls -lta
+   65  pwd
+   66  ls -lt
+   67  echo la la la
+   68  echo 123 > text_1.txt
+   69  hexdump
+   70  git --version
+   71  sudo apt-get install git
+   72  git --version
+   73  VirtualBox --startvm XP
+   74  sudo apt install virtualbox-qt
+   75  VirtualBox --startvm XP
+   76  quartus
+   77  git clone http://github.com/RK22658/Rajiv22658
+   78  ls -lt
+   79  sudo -h
+   80  sudo -D
+   81  pwd -l
+   82  pwd -L
+   83  pwd -P
+   84  ls -lt
+   85  cd ~Desktop
+   86  cd~Desktop
+   87  cd ~Music
+   88  cd ..
+   89  cd -
+   90  cd-
+   91  cd -
+   92  cd rajiv
+   93  pwd
+   94  cd ~
+   95  pwd
+   96  cd ~
+   97  cd ..
+   98  ls -lt
+   99  cd -
+  100  ls -R
+  101  ls -a
+  102  ls -lh
+  103  cat R.txt
+  104  cat >R.txt
+  105  ls -lh
+  106  cat K.txt
+  107  cat >K.txt
+  108  cat>r.txt
+  109  ls-lh
+  110  ls \-lh
+  111  tac r.txt
+  112  tac K.txt
+  113  cat r.txt cat K.txt > cat D.txt
+  114  cat r.txt cat K.txt >cat D.txt
+  115  cat >D.txt
+  116  cat r.txt cat K.txt >cat D.txt
+  117  cat r.txt K.txt > D.txt
+  118  cat D.txt
+  119  cp D.txt RKD.txt
+  120  cat RKD.txt
+  121  cat D.txt
+  122  mv old_RKD.txt new_DKR.txt
+  123  mv RKD.txt /home/rajiv/Music
+  124  pwd
+  125  cd -Music
+  126  cd /home/rajiv/Music
+  127  ls -lh
+  128  ls -a
+  129  cd ..
+  130  pwd
+  131  mkdir films
+  132  mkdir films/anime
+  133  mkdir -p films/japanese/anime
+  134  mkdir -m777 admin
+  135  ls -lh
+  136  rmdir admin 
+  137  ls -lh
+  138  rm cat D.txt K.txt r.txt R.txt
+  139  ls -lt
+  140  rmdir ABC films
+  141  cd films
+  142  ls -lt
+  143  rmdir japanese anime
+  144  rmdir -r japanese
+  145  rmdir -r
+  146  rmdir -rjapanese
+  147  rmdir --help
+  148  rm -r japanese
+  149  ls-lt
+  150  ls -lt
+  151  cd ..
+  152  ls -lt
+  153  rmdir films
+  154  rm text_1.txt
+  155  ls -lt
+  156  ls -a
+  157  cd Rajiv22658
+  158  ls -lt
+  159  rm rkd.txt text_1.txt
+  160  cd -
+  161  mv old_gitupload new_git-upload
+  162  rm rkd.txt
+  163  touch /home/rajiv/Music/sinhala.html
+  164  cd Music
+  165  ls -lh
+  166  history > basic_note_prt_01.txt
+  167  nano git-upload
+  168  history > basic_note_prt_01.txt
+  169  cd ..
+  170  pwd
+  171  history > basic_note_prt_01.txt
