@@ -1,0 +1,337 @@
+    1  git --version
+    2  whereisgit
+    3  git clone nano git-upload
+    4  nano h
+    5  virtualbox --startvm XP
+    6  quartus
+    7  virtualbox --qt
+    8  virtualbox--startvm XP
+    9  Virtualbox -startvm XP
+   10  whoami
+   11  pwd
+   12  man ls
+   13  ls -l
+   14  ls -l -t
+   15  ls -lt
+   16  ls -la
+   17  ls Desktop/
+   18  ls -la documents/
+   19  ls -la Documents/
+   20  ls /home
+   21  pwd
+   22  ls
+   23  tree
+   24  cd Music/
+   25  ls -la
+   26  cd .
+   27  cd ..
+   28  pwd
+   29  cd ..
+   30  cd sc/
+   31  cd ..
+   32  ls
+   33  s -la
+   34  ls -la
+   35  pwd
+   36  cd .
+   37  cd ..
+   38  pwd
+   39  ls
+   40  cd root/
+   41  cd home/
+   42  cd ..
+   43  cd ./home/
+   44  ls
+   45  pwd
+   46  cd /
+   47  pwd
+   48  cd /home /user
+   49  cd /
+   50  cd ~
+   51  cd ~/Documents
+   52  cd ..
+   53  cd ~
+   54  pwd
+   55  cd /home /rajiv
+   56  cd
+   57  ls
+   58  ls -lt
+   59  mkdir ABC
+   60  ls -lt
+   61  ls -lt ABC
+   62  ls -lt ABC/
+   63  ls -lta ABC/
+   64  ls -lta
+   65  pwd
+   66  ls -lt
+   67  echo la la la
+   68  echo 123 > text_1.txt
+   69  hexdump
+   70  git --version
+   71  sudo apt-get install git
+   72  git --version
+   73  VirtualBox --startvm XP
+   74  virtualBox --startvm XP
+   75  VirtualBox --startvm XP
+   76  sudo apt install virtualbox-qt
+   77  VirtualBox --startvm XP
+   78  quartus
+   79  git clone http://github.com/RK22658/Rajiv22658
+   80  ls -lt
+   81  sudo -h
+   82  sudo -D
+   83  pwd -l
+   84  pwd -L
+   85  pwd -P
+   86  ls -lt
+   87  cd ~Desktop
+   88  cd~Desktop
+   89  cd ~Music
+   90  cd ..
+   91  cd -
+   92  cd-
+   93  cd -
+   94  cd rajiv
+   95  pwd
+   96  cd ~
+   97  pwd
+   98  cd ~
+   99  cd ..
+  100  ls -lt
+  101  cd -
+  102  ls -R
+  103  ls -a
+  104  ls -lh
+  105  cat R.txt
+  106  cat >R.txt
+  107  ls -lh
+  108  cat K.txt
+  109  cat >K.txt
+  110  cat>r.txt
+  111  ls-lh
+  112  ls \-lh
+  113  tac r.txt
+  114  tac K.txt
+  115  cat r.txt cat K.txt > cat D.txt
+  116  cat r.txt cat K.txt >cat D.txt
+  117  cat >D.txt
+  118  cat r.txt cat K.txt >cat D.txt
+  119  cat r.txt K.txt > D.txt
+  120  cat D.txt
+  121  cp D.txt RKD.txt
+  122  cat RKD.txt
+  123  cat D.txt
+  124  mv old_RKD.txt new_DKR.txt
+  125  mv RKD.txt /home/rajiv/Music
+  126  pwd
+  127  cd -Music
+  128  cd /home/rajiv/Music
+  129  ls -lh
+  130  ls -a
+  131  cd ..
+  132  pwd
+  133  mkdir films
+  134  mkdir films/anime
+  135  mkdir -p films/japanese/anime
+  136  mkdir -m777 admin
+  137  ls -lh
+  138  rmdir admin 
+  139  ls -lh
+  140  rm cat D.txt K.txt r.txt R.txt
+  141  ls -lt
+  142  rmdir ABC films
+  143  cd films
+  144  ls -lt
+  145  rmdir japanese anime
+  146  rmdir -r japanese
+  147  rmdir -r
+  148  rmdir -rjapanese
+  149  rmdir --help
+  150  rm -r japanese
+  151  ls-lt
+  152  ls -lt
+  153  cd ..
+  154  ls -lt
+  155  rmdir films
+  156  rm text_1.txt
+  157  ls -lt
+  158  ls -a
+  159  cd Rajiv22658
+  160  ls -lt
+  161  rm rkd.txt text_1.txt
+  162  cd -
+  163  mv old_gitupload new_git-upload
+  164  rm rkd.txt
+  165  touch /home/rajiv/Music/sinhala.html
+  166  cd Music
+  167  ls -lh
+  168  history > basic_note_prt_01.txt
+  169  nano git-upload
+  170  history > basic_note_prt_01.txt
+  171  cd ..
+  172  pwd
+  173  history > basic_note_prt_01.txt
+  174  git clone https://github.com/RK22658/Rajiv22658
+  175  cd ..
+  176  ls -lt
+  177  cd Rajiv22658
+  178  ls -l
+  179  ls -lt
+  180  git clone https://github.com/RK22658/Rajiv22658
+  181  cd ..
+  182  git clone https://github.com/RK22658/Rajiv22658
+  183  cd /home
+  184  ls -lt
+  185  cd /rajiv
+  186  pwd
+  187  ls -a
+  188  cd /rajiv
+  189  cd rajiv
+  190  ls -lt
+  191  git clone https://github.com/RK22658/Rajiv22658
+  192  cd Rajiv22658
+  193  ls -lt
+  194  pwd
+  195  cd ..
+  196  ls -lt
+  197  cd Rajiv22658
+  198  ls -lt
+  199  ls -a
+  200  ls -lta
+  201  cd ~
+  202  pwd
+  203  git clone https://github.com/RK22658/Rajiv22658
+  204  cd ..
+  205  git clone https://github.com/RK22658/Rajiv22658
+  206  cd Rajiv22658
+  207  cd rajiv/Rajiv22658
+  208  git clone https://github.com/RK22658/Rajiv22658
+  209  pwd
+  210  cd rajiv
+  211  pwd
+  212  cd ..
+  213  ls -lt
+  214  cd Rajiv22658
+  215  ls -lt
+  216  ls -lta
+  217  cd other_1
+  218  ls -lt
+  219  cd ..
+  220  mkdir trial
+  221  ls -lt
+  222  rmdir trial
+  223  ls -lt
+  224  git clone https://github.com/RK22658/Rajiv22658
+  225  cd ~
+  226  pwd
+  227  ls -lt
+  228  mkdir >Music/songs
+  229  mkdir Music/songs
+  230  cd Music
+  231  ls -lt
+  232  rmdir songs
+  233  rm songs
+  234  ls -lt
+  235  cd ..
+  236  pwd
+  237  mkdir Music/musical_shows
+  238  ls -lt
+  239  cd MUsic
+  240  cd Music
+  241  ls -lt
+  242  rmdir musica;_shows
+  243  rmdir musical_shows
+  244  ls -lt
+  245  cd ~
+  246  pwd
+  247  cd ..
+  248  ls -lt
+  249  cd Rajiv22658
+  250  ls -lt
+  251  ls -lta
+  252  cd Rajiv22658
+  253  ls -lt
+  254  cd ~
+  255  pwd
+  256  cd Rajiv22658
+  257  cd other_1
+  258  ls -lt
+  259  mkdir trial
+  260  ls -lt
+  261  cd ..
+  262  ls -lt
+  263  cd other_1
+  264  ls -lt
+  265  rmdir trial_2 trial
+  266  ls -lt
+  267  cd ~
+  268  pwd
+  269  cd ..
+  270  cd Rajiv22658
+  271  ls -lt
+  272  ./git-upload
+  273  git pull
+  274  ls -lt
+  275  git pull
+  276  git clone https://github.com/RK22658/Rajiv22658
+  277  git-clone https://github.com/RK22658/Rajiv22658
+  278  git clone https://github.com/RK22658
+  279  git clone https://github.com/RK22658/Rajiv22658
+  280  cd ..
+  281  git clone https://github.com/RK22658/Rajiv22658
+  282  cd ~
+  283  pwd
+  284  git clone https://github.com/RK22658/Rajiv22658
+  285  pwd
+  286  cd ..
+  287  git clone https://github.com/RK22658/Rajiv22658
+  288  cd ~
+  289  git clone https://github.com/RK22658/Rajiv22658
+  290  cd home/rajiv/Rajiv22658
+  291  pwd
+  292  cd Rajiv22658
+  293  ls -lt
+  294  ls -lta
+  295  cd .
+  296  ls -lt
+  297  cd Rajiv22658
+  298  ls -lt
+  299  pwd
+  300  cd Rajiv2258
+  301  ls -lt
+  302  cd Rajiv22658
+  303  ls -lt
+  304  ls -lta
+  305  cd Rajiv22658
+  306  ls -lt
+  307  cat gitupload
+  308  nano gitupload
+  309  nano git-upload
+  310  nano gitupload
+  311  nano printf_example.c
+  312  ls -lt
+  313  gcc printf_example.c
+  314  ls -lt
+  315  ./a.out
+  316  nano scanf_example.c
+  317  gcc scanf_example.c
+  318  ls -lt
+  319  ./a.out
+  320  nano fflush_example.c
+  321  gcc fflush_example.c
+  322  ls -lt
+  323  ./a.out
+  324  chmkdir a.out
+  325  chmod 777 a.out
+  326  ls -lt
+  327  ./a.out
+  328  nano fflush_example.c\
+  329  nano fflush_example.c
+  330  gcc fflush_example.c
+  331  nano fflush_example.c
+  332  gcc fflush_example.c
+  333  nano fflush_example.c
+  334  gcc fflush_example.c
+  335  ls -lt
+  336  ./a.out
+  337  history >history_examples
