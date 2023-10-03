@@ -1,0 +1,18 @@
+/* My code */
+#include <stdio.h>
+
+int main ()
+{
+  char str [80];
+  int i;
+
+  printf ("Enter your name: ");
+  scanf ("%79s",str);  
+  printf ("Enter your age: ");
+  scanf ("%d",&i);
+  printf ("Mr. %s , %d years old.\n",str,i);
+  scanf ("%d",&i);
+  printf ("Your year of birth is: "(2023-%d)".\n",i,i);
+  
+  return 0;
+}
