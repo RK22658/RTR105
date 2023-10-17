@@ -1,0 +1,49 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/RK22658/Rajiv22658
+    4  pwd
+    5  cd RK22658
+    6  cd Rajiv22658
+    7  ls -lt
+    8  ls -lta
+    9  mkdir Class_10
+   10  cd Class_10
+   11  LT.c
+   12  GNU nano
+   13  nano git upload
+   14  nano if.c
+   15  ./a.out
+   16  ls -lta
+   17  cd..
+   18  cd~
+   19  cd..
+   20  cd ..
+   21  ls -lta
+   22  ./a.out
+   23  cd class_10
+   24  cd Class_10
+   25  ls -lt
+   26  gcc if.c
+   27  nano if.c
+   28  gcc if.c
+   29  nano if.c
+   30  gcc if.c
+   31  nano if.c
+   32  gcc if.c
+   33  nano while.c
+   34  nano if.c
+   35  gcc if.c
+   36  nano if.c
+   37  gcc if.c
+   38  nano if.c
+   39  gcc if.c
+   40  nano if.c
+   41  gcc if.c
+   42  nano if.c
+   43  gcc if.c
+   44  nano if.c
+   45  gcc if.c
+   46  nano if.c
+   47  gcc if.c
+   48  ./a.out
+   49  history>history20231017.txt
