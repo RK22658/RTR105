@@ -1,0 +1,44 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/RK22658/Rajiv22658
+    4  nano while char.c
+    5  nano while_char.c
+    6  gcc while_char.c
+    7  nano while_char.c
+    8  gcc while_char.c
+    9  nano while_char.c
+   10  gcc while_char.c
+   11  nano while_char.c
+   12  gcc while_char.c
+   13  nano while_char.c
+   14  pwd
+   15  cd RK22658
+   16  cd Rajiv22658
+   17  ls -lta
+   18  chmod 777 variables
+   19  ls -lta
+   20  rm variables
+   21  ls -lta
+   22  cat .
+   23  cd .
+   24  nano while_char.c
+   25  cd ..
+   26  nano while_char.c
+   27  gcc while_char.c
+   28  ./a.out
+   29  cd Rajiv22658
+   30  ls-lta
+   31  ls -lta
+   32  cd ..
+   33  ls -lta
+   34  pwd
+   35  mv a.out /home/user
+   36  mv a.out /home/user/Rajiv22658
+   37  cd Rajiv22658
+   38  ls -lta
+   39  ./a.out
+   40  ls -lta
+   41  cd Class11
+   42  mkdir Class11
+   43  ls -lta
+   44  history> history20231018
