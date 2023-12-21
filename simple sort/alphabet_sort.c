@@ -16,7 +16,7 @@ int main()
     printf("Enter 'a' for alphabetical order or 'o' for opposite order: ");
     scanf(" %c", &order);
 
-    if (order == 'a') {
+    {
         if (letter1 > letter2) {
             char temp = letter1;
             letter1 = letter2;
@@ -32,24 +32,15 @@ int main()
             letter1 = letter2;
             letter2 = temp;
         }
-        printf("Alphabet Order for these Letters: \n%c, %c, %c\n", letter1, letter2, letter3);
-    } else if (order == 'o') {
-        if (letter1 < letter2) {
-            char temp = letter1;
-            letter1 = letter2;
-            letter2 = temp;
+        if (order == 'a')
+        { 
+            printf("Alphabet Order for these Letters: \n%c, %c, %c\n", letter1, letter2, letter3);
         }
-        if (letter2 < letter3) {
-            char temp = letter2;
-            letter2 = letter3;
-            letter3 = temp;
+     else if (order == 'o') 
+        {
+         printf("Opposite Order for these Letters: \n%c, %c, %c\n", letter1, letter2, letter3);
         }
-        if (letter1 < letter2) {
-            char temp = letter1;
-           letter1 = letter2;
-            letter2 = temp;
-        }
-        printf("Opposite Order for these Letters: \n%c, %c, %c\n", letter1, letter2, letter3);
+       
     }
 
     return 0;
