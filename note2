@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() 
+{
+  // Prompt the user to enter a natural number
+  char num;
+  printf("Enter a natural number: ");
+  scanf("%c", &num);
+
+  // Initialize variables for binary code and step counter
+  int binaryCode = 0;
+  int step = 0;
+
+  // Check the LSB and set the corresponding bit in binaryCode
+  if (num & 1) {
+    binaryCode |= (1 << step);
+  }
+  step++;
+
+  // Shift num to the right one bit and check the new LSB
+  num >>= 1;
+  if (num & 1) {
+    binaryCode |= (1 << step);
+  }
+  step++;
+
+  // Repeat the process until num becomes zero
+  while (num > 0) {
+    num >>= 1;
+    if (num & 1) {
+      binaryCode |= (1 << step);
+    }
+    step++;
+  }
+
+  // Print the binary code using a formatted string
+  printf("Binary code: %d\n", binaryCode);
+
+  return 0;
+}
