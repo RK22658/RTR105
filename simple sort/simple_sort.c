@@ -16,41 +16,33 @@ int main()
     printf("Enter 'a' for ascending order or 'd' for descending order: ");
     scanf(" %c", &order);
 
-    if (order == 'a') {
-        if (num1 > num2) {
+    {
+        if (num1 > num2) 
+        {
             int temp = num1;
             num1 = num2;
             num2 = temp;
         }
-        if (num2 > num3) {
+        if (num2 > num3) 
+        {
             int temp = num2;
             num2 = num3;
             num3 = temp;
         }
-        if (num1 > num2) {
+        if (num1 > num2) 
+        {
             int temp = num1;
             num1 = num2;
             num2 = temp;
         }
-        printf("The Ascending Order For Your Numbers Are :- \n%d, %d, %d\n", num1, num2, num3);
-    } else if (order == 'd') {
-        if (num1 < num2) {
-            int temp = num1;
-            num1 = num2;
-            num2 = temp;
+        if (order == 'a') 
+        {
+            printf("The Ascending Order For Your Numbers Are :- \n%d, %d, %d\n", num1, num2, num3);
         }
-        if (num2 < num3) {
-            int temp = num2;
-            num2 = num3;
-            num3 = temp;
-        }
-        if (num1 < num2) {
-            int temp = num1;
-            num1 = num2;
-            num2 = temp;
-        }
+     else if (order == 'd') 
+     {
         printf("The Descending Order For Your Numbers Are:- \n%d, %d, %d\n", num1, num2, num3);
+     }
     }
-
     return 0;
 }
