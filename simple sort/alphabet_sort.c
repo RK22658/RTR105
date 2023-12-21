@@ -38,7 +38,7 @@ int main()
         }
      else if (order == 'o') 
         {
-         printf("Opposite Order for these Letters: \n%c, %c, %c\n", letter1, letter2, letter3);
+         printf("Opposite Order for these Letters: \n%c, %c, %c\n", letter3, letter2, letter1);
         }
        
     }
