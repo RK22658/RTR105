@@ -41,7 +41,7 @@ int main()
         }
      else if (order == 'd') 
      {
-        printf("The Descending Order For Your Numbers Are:- \n%d, %d, %d\n", num1, num2, num3);
+        printf("The Descending Order For Your Numbers Are:- \n%d, %d, %d\n", num3, num2, num1);
      }
     }
     return 0;
