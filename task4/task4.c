@@ -1,62 +1,63 @@
 #include <stdio.h>
+#include <math.h>
+#include <limits.h>
 
-int main() 
-{
-  int num;
+int main() {
+  double number;
+  char choice;
+
   printf("Enter a decimal number: ");
-  scanf("%d", &num);
-  char type;
-  printf("Choose data type: char (c), int (i), or long long (l): ");
-  scanf(" %c", &type);
+  scanf("%lf", &number);
 
-  if (type != 'c' && type != 'i' && type != 'l') 
-   {
-    printf("Invalid data type");
-    return 1;
-   }
-  int result;
-  switch (type) 
-  {
-    case 'c':
-      result = 1;
-      while (result <= num) 
-     {
-        result *= result;
-        if (result == -1)
-        {
-          printf("Cannot calculate factorial with char data type");
-          return 0;
+  printf("Choose the data type to use ((c) for char, (i) for int, or (l) long long): ");
+  scanf(" %c", &choice);
+
+  double result = 1.0;
+  while (1) {
+    switch (choice) {
+      case 'c':
+        if (result >= CHAR_MAX) {
+          printf("Cannot calculate factorial with char data type for %lf.\n", number);
+          return 1;
         }
-      }
-      printf("Factorial of %d with char data type: %d\n", num, result);
-      break;
-    case 'i':
-      result = 1;
-      while (result <= num) 
-     {
-        result *= result;
-        if (result == -1)
-        {
-          printf("Cannot calculate factorial with int data type");
-          return 0;
+        break;
+
+      case 'i':
+        if (result >= INT_MAX) {
+          printf("Cannot calculate factorial with int data type for %lf.\n", number);
+          return 1;
         }
-      }
-      printf("Factorial of %d with int data type: %d\n", num, result);
-      break;
-    case 'l':
-      long long result2 = 1;
-      while (result2 <= num) 
-      {
-        result2 *= result2;
-        if (result2 < 0) 
-        {
-          printf("Cannot calculate factorial with long long data type");
-          return 0;
+        break;
+
+      case 'l':
+        if (number >= LONG_MAX) {
+          printf("Cannot calculate factorial with long long data type for %lf.\n", number);
+          return 1;
         }
-      }
-      printf("Factorial of %d with long long data type: %lld\n", num, result2);
+        break;
+
+      default:
+        printf("Invalid data type selection. Please choose 'c', 'i', or 'l'.\n");
+        return 1;
+    }
+
+    if (isinf(number) || isnan(number)) {
+      printf("Cannot calculate factorial of infinity or NaN.\n");
+      return 1;
+    }
+
+    if (number != 0)
+    {
+      result *= number;
+      number--;
+    }
+     else {
       break;
+    }
   }
+
+  printf("The factorial of the number %lf.\n (data type %c) is: %.1lf\n", number, choice, result);
 
   return 0;
 }
+
