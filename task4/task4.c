@@ -3,61 +3,58 @@
 #include <limits.h>
 
 int main() {
-  double number;
+  long long number;
   char choice;
 
   printf("Enter a decimal number: ");
-  scanf("%lf", &number);
+  scanf("%lld", &number);
 
   printf("Choose the data type to use ((c) for char, (i) for int, or (l) long long): ");
   scanf(" %c", &choice);
 
-  double result = 1.0;
+  long long result = 1; 
   while (1) {
     switch (choice) {
       case 'c':
-        if (result >= CHAR_MAX) {
-          printf("Cannot calculate factorial with char data type for %lf.\n", number);
-          return 1;
+        if (result >= CHAR_MAX) 
+        { 
+          printf("Cannot calculate factorial with char data type for %lld.\n", number);
+          return 0;
         }
         break;
 
       case 'i':
-        if (result >= INT_MAX) {
-          printf("Cannot calculate factorial with int data type for %lf.\n", number);
-          return 1;
+        if (result >= UINT_MAX) 
+        { 
+          printf("Cannot calculate factorial with int data type for %lld.\n", number);
+          return 0;
         }
         break;
 
       case 'l':
-        if (number >= LONG_MAX) {
-          printf("Cannot calculate factorial with long long data type for %lf.\n", number);
-          return 1;
+        if (number >= LONG_MAX) 
+        { 
+          printf("Cannot calculate factorial with long long data type for %lld.\n", number);
+          return 0;
         }
         break;
 
       default:
         printf("Invalid data type selection. Please choose 'c', 'i', or 'l'.\n");
-        return 1;
+        return 0;
     }
 
-    if (isinf(number) || isnan(number)) {
-      printf("Cannot calculate factorial of infinity or NaN.\n");
-      return 1;
-    }
 
-    if (number != 0)
-    {
+    if (number != 1) {
       result *= number;
       number--;
-    }
-     else {
+    } else {
       break;
     }
+    
   }
 
-  printf("The factorial of the number %lf.\n (data type %c) is: %.1lf\n", number, choice, result);
+  printf("The factorial of the number %lld (data type %c) is: %llu\n", number, choice, result);
 
   return 0;
 }
-
