@@ -23,7 +23,7 @@ int main()
 
     if (strcmp(dataType, "char") == 0) 
     {
-        if (userNumber < 0 || userNumber > 11) 
+        if (userNumber < 0 || userNumber > 5) 
         {
             printf("Factorial calculation not possible for the given input and data type.\n");
         } else
