@@ -17,11 +17,11 @@ int main()
     printf("Enter a decimal number: ");
     scanf("%lf", &userNumber);
 
-    printf("Choose data type: char, int, or long long: ");
+    printf("Choose data type: c for char, i for int, l for long long: ");
     char dataType[20];  
     scanf("%s", dataType);
 
-    if (strcmp(dataType, "char") == 0) 
+    if (strcmp(dataType, "c") == 0) 
     {
         if (userNumber < 0 || userNumber > 5) 
         {
@@ -31,7 +31,7 @@ int main()
             char result = (char)calculateFactorial((long long)userNumber);
             printf("Factorial: %d\n", (int)result);
         }
-    } else if (strcmp(dataType, "int") == 0) 
+    } else if (strcmp(dataType, "i") == 0) 
     {
         if (userNumber < 0 || userNumber > 12) 
         {
@@ -41,7 +41,7 @@ int main()
             int result = (int)calculateFactorial((long long)userNumber);
             printf("Factorial: %d\n", result);
         }
-    } else if (strcmp(dataType, "long long") == 0) 
+    } else if (strcmp(dataType, "l") == 0) 
     {
         if (userNumber < 0 || userNumber > 20) 
         {
