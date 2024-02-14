@@ -10,7 +10,7 @@ void addNumbers(int a, int b) {
 }
 
 int getRandomNumber() {
-    return rand() % 100; // Generates a random number between 0 and 99
+    return rand() % 100; 
 }
 
 int multiply(int x, int y) {
