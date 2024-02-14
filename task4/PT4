@@ -1,15 +1,18 @@
 #include <stdio.h>
 
-long long calculateFactorial(long long n) {
+long long calculateFactorial(long long n) 
+{
     long long result = 1;
-    while (n > 1) {
+    while (n > 1) 
+    {
         result *= n;
         n--;
     }
     return result;
 }
 
-int main() {
+int main() 
+{
     double userNumber;
     printf("Enter a decimal number: ");
     scanf("%lf", &userNumber);
@@ -18,28 +21,38 @@ int main() {
     char dataType[20];  
     scanf("%s", dataType);
 
-    if (strcmp(dataType, "char") == 0) {
-        if (userNumber < 0 || userNumber > 11) {
+    if (strcmp(dataType, "char") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 11) 
+        {
             printf("Factorial calculation not possible for the given input and data type.\n");
-        } else {
+        } else
+        {
             char result = (char)calculateFactorial((long long)userNumber);
             printf("Factorial: %d\n", (int)result);
         }
-    } else if (strcmp(dataType, "int") == 0) {
-        if (userNumber < 0 || userNumber > 12) {
+    } else if (strcmp(dataType, "int") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 12) 
+        {
             printf("Factorial calculation not possible for the given input and data type.\n");
-        } else {
+        } else 
+        {
             int result = (int)calculateFactorial((long long)userNumber);
             printf("Factorial: %d\n", result);
         }
-    } else if (strcmp(dataType, "long long") == 0) {
-        if (userNumber < 0 || userNumber > 20) {
+    } else if (strcmp(dataType, "long long") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 20) 
+        {
             printf("Factorial calculation not possible for the given input and data type.\n");
-        } else {
+        } else 
+        {
             long long result = calculateFactorial((long long)userNumber);
             printf("Factorial: %lld\n", result);
         }
-    } else {
+    } else 
+    {
         printf("Invalid data type selected.\n");
     }
 
