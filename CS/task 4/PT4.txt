@@ -1,0 +1,60 @@
+#include <stdio.h>
+
+long long calculateFactorial(long long n) 
+{
+    long long result = 1;
+    while (n > 1) 
+    {
+        result *= n;
+        n--;
+    }
+    return result;
+}
+
+int main() 
+{
+    double userNumber;
+    printf("Enter a decimal number: ");
+    scanf("%lf", &userNumber);
+
+    printf("Choose data type: c for char, i for int, l for long long: ");
+    char dataType[20];  
+    scanf("%s", dataType);
+
+    if (strcmp(dataType, "c") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 5) 
+        {
+            printf("Factorial calculation not possible for the given input and data type.\n");
+        } else
+        {
+            char result = (char)calculateFactorial((long long)userNumber);
+            printf("Factorial: %d\n", (int)result);
+        }
+    } else if (strcmp(dataType, "i") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 12) 
+        {
+            printf("Factorial calculation not possible for the given input and data type.\n");
+        } else 
+        {
+            int result = (int)calculateFactorial((long long)userNumber);
+            printf("Factorial: %d\n", result);
+        }
+    } else if (strcmp(dataType, "l") == 0) 
+    {
+        if (userNumber < 0 || userNumber > 20) 
+        {
+            printf("Factorial calculation not possible for the given input and data type.\n");
+        } else 
+        {
+            long long result = calculateFactorial((long long)userNumber);
+            printf("Factorial: %lld\n", result);
+        }
+    } else 
+    {
+        printf("Invalid data type selected.\n");
+    }
+
+    return 0;
+}

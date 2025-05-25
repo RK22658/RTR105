@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+void greetUser() {
+    printf("Hello, User!\n");
+}
+
+void addNumbers(int a, int b) {
+    int sum = a + b;
+    printf("Sum of %d and %d is: %d\n", a, b, sum);
+}
+
+int getRandomNumber() {
+    return rand() % 100; 
+}
+
+int multiply(int x, int y) {
+    return x * y;
+}
+
+int main() {
+   
+    greetUser();
+
+    addNumbers(5, 7);
+    int randomNum = getRandomNumber();
+    printf("Random number: %d\n", randomNum);
+
+
+    int result = multiply(3, 4);
+    printf("Multiplication result: %d\n", result);
+
+    return 0;
+}

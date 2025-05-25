@@ -1,0 +1,152 @@
+#include <stdio.h>
+
+long long calculateFactorial(int num, char dataType) {
+    if (dataType == 'char') {
+        if (num < 0) {
+            printf(#include <stdio.h>
+
+long long calculateFactorial(int num, char dataType) {
+    if (dataType == 'char') {
+        if (num < 0) {
+            printf("Factorial calculation not possible for negative numbers with char data type.\n");
+            return -1;
+        }
+        
+        char result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > CHAR_MAX / i) {
+                printf("Factorial calculation exceeded char data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    if (dataType == 'int') {
+        if (num < 0) {
+            printf("Factorial calculation not possible for negative numbers with int data type.\n");
+            return -1;
+        }
+        
+        int result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > INT_MAX / i) {
+                printf("Factorial calculation exceeded int data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    if (dataType == 'long long') {
+        if (num < 0) {
+            printf("Factorial calculation not possible for negative numbers with long long data type.\n");
+            return -1;
+        }
+        
+        long long result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > LLONG_MAX / i) {
+                printf("Factorial calculation exceeded long long data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    printf("Invalid data type selected.\n");
+    return -1;
+}
+
+int main() {
+    int num;
+    char dataType[20];
+
+    printf("Enter a decimal number: ");
+    scanf("%d", &num);
+
+    printf("Enter data type (char, int, or long long): ");
+    scanf("%s", dataType);
+
+    long long result = calculateFactorial(num, dataType);
+
+    if (result != -1) {
+        printf("Factorial of %d using %s data type is: %lld\n", num, dataType, result);
+    }
+
+    return 0;
+}
+"Factorial calculation not possible for negative numbers with char data type.\n");
+            return -1;
+        }
+        
+        char result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > CHAR_MAX / i) {
+                printf("Factorial calculation exceeded char data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    if (dataType == 'int') {
+        if (num < 0) {
+            printf("Factorial calculation not possible for negative numbers with int data type.\n");
+            return -1;
+        }
+        
+        int result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > INT_MAX / i) {
+                printf("Factorial calculation exceeded int data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    if (dataType == 'long long') {
+        if (num < 0) {
+            printf("Factorial calculation not possible for negative numbers with long long data type.\n");
+            return -1;
+        }
+        
+        long long result = 1;
+        for (int i = 2; i <= num; ++i) {
+            if (result > LLONG_MAX / i) {
+                printf("Factorial calculation exceeded long long data type limit.\n");
+                return -1;
+            }
+            result *= i;
+        }
+        return result;
+    }
+    
+    printf("Invalid data type selected.\n");
+    return -1;
+}
+
+int main() {
+    int num;
+    char dataType[20];
+
+    printf("Enter a decimal number: ");
+    scanf("%d", &num);
+
+    printf("Enter data type (char, int, or long long): ");
+    scanf("%s", dataType);
+
+    long long result = calculateFactorial(num, dataType);
+
+    if (result != -1) {
+        printf("Factorial of %d using %s data type is: %lld\n", num, dataType, result);
+    }
+
+    return 0;
+}
